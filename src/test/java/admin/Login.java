@@ -17,7 +17,7 @@ public class Login {
 		try {
 			WiniumDriver driver = new WiniumDriver(new URL("http://localhost:9999"), options);
 			//driver.findElement(By.className("SunAwtFrame")).sendKeys("test");
-			driver.close();
+			//driver.close();
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
